@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, bitsavers,
+ [{description, "bitsavers app"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {mod, {e2_application, [bitsavers_app]}},
+  {env, []},
+  {applications, [kernel, stdlib]}]}.
