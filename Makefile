@@ -33,7 +33,7 @@ clean:
 
 opts=
 shell: compile
-	erl -pa ebin $(wildcard deps/*/ebin) -s e2_reloader ${opts}
+	erl -name bitsavers -pa ebin $(wildcard deps/*/ebin) -s e2_reloader ${opts}
 
 env-appid:
 	@if [ -z "${appid}" ]; then \
